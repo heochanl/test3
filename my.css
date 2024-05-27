@@ -1,0 +1,17 @@
+body {background-color: linen; font-family: Arial, 'Trebuchet MS', sans-serif; margin: 0px;}
+        header {background-color: beige; color: black; margin: 0px; text-align: center; padding: 5px;}
+        h1 {margin: 0px;}
+        section#main {float: left; width: 70%; background-color: whitesmoke;}
+        nav {float: left; width: 30%; height: 200px; background-color: aliceblue;}
+        footer {background-color: gainsboro; color: dodgerblue; text-align: center; padding: 10px; margin: 0px; font-size: 90%; clear: both;}
+
+
+        #header {background-color: green;}
+        #nav {background-color: rgb(129, 143, 155);}
+        #mian {background-color: rgb(19, 57, 57);}
+        #footer {background-color: rgb(216, 64, 9);}
+
+
+
+        @media screen and (max-width:768px) 
+        {#header, #nav, #main, #footer {width: 100%;}}

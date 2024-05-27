@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>토끼와거북이</title>
+    <link type="text/css" rel="stylesheet" href="my.css">
+    <style>
+        #img1, #img2 {width: 100px; display: block; position: relative; margin: 10px; animation: myanim 5s infinite;}
+        #img1 {animation-timing-function: ease-out;}
+        #img2 {animation-timing-function: ease-in;}
+        @keyframes myanim {from {left: 0px;} to {left: 1000px;}}
+    </style>
+    </head>
+<body>
+    <header id="header"> <h1>My Blog Page</h1> </header>
+    <nav id="nav">
+        <h1>Links</h1>
+        <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="1page.html">봄</a></li>
+            <li><a href="2page.html">여름</a></li>
+            <li><a href="3page.html">가을</a></li>
+            <li><a href="4page.html">겨울</a></li>
+            <li><a href="myani.html">박스 애니메이션</a></li>
+            <li><a href="r.html">토끼와 거북이 애니메이션</a></li>
+        </ul>
+    </nav>
+    <section id="main">
+    <article> 
+        <img id="img1" src="rabit.png" width="60" height="90">
+        <img id="img2" src="turtle.png" width="60" height="90">
+    </article>
+    </section>
+    <footer>CC BY-NC-SA 2.0 KR</footer>
+</body>
+</html>
